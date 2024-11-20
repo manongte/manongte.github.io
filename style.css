@@ -1,0 +1,119 @@
+/* Styles généraux */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9; /* Fond clair */
+  color: #333333; /* Texte gris foncé */
+}
+
+/* En-tête */
+header {
+  background-color: #4a90e2; /* Bleu vif */
+  color: #ffffff; /* Texte blanc */
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+/* Barre de navigation */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #4a90e2; /* Bleu vif */
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+/* Section */
+#home {
+  max-width: 800px;
+  margin: 0 auto; /* Centré horizontalement */
+  padding: 20px;
+  background-color: #ffffff; /* Fond blanc pour contraster */
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Légère ombre */
+}
+
+#home h2 {
+  font-size: 28px;
+  color: #4a90e2; /* Harmonisé avec l'en-tête */
+  margin-bottom: 15px;
+}
+
+#home p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+#home a {
+  color: #d35400; /* Orange pour attirer l'attention */
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#home a:hover {
+  text-decoration: underline;
+  color: #e67e22; /* Variation plus claire au survol */
+}
+
+#home img {
+  display: block;
+  max-width: 100%; /* Image responsive */
+  height: auto;
+  margin: 20px auto;
+  border-radius: 8px;
+  border: 2px solid #dddddd;
+}
+
+#about img {
+  display: block;
+  max-width: 100%; /* Image responsive */
+  height: auto;
+  margin: 20px auto;
+  border-radius: 8px;
+  border: 2px solid #dddddd;
+}
+
+#about a {
+  display: block; /* Le lien devient un bloc, ce qui permet de lui appliquer un centrage */
+  color: #d35400; /* Orange pour attirer l'attention */
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px; /* Ajoute des bords arrondis */
+  text-align: center; /* Centre le texte à l'intérieur du lien */
+}
+
+
+/* Pied de page */
+footer {
+  text-align: center;
+  background-color: #4a90e2; /* Même bleu que l'en-tête */
+  color: #ffffff;
+  padding: 15px 0;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
